@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Studio 2018 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://BankMail.ws.uz/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="sendMail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bMail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="sender" type="xs:unsignedShort" />
+              <xs:element minOccurs="0" name="receiver" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="mail_type" type="xs:unsignedInt" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="bTrace">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="sender_id" type="xs:string" />
+              <xs:element minOccurs="0" name="sender_ts" type="xs:string" />
+              <xs:element minOccurs="0" name="bankmail_id" />
+              <xs:element minOccurs="0" name="bankmail_ts" />
+              <xs:element minOccurs="0" name="receiver_id" />
+              <xs:element minOccurs="0" name="receiver_ts" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="bBody">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="doc_n" type="xs:unsignedInt" />
+              <xs:element minOccurs="0" name="content" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="bSign" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,28 @@
+		<sendMail xmlns="http://BankMail.ws.uz/">
+			<bMail>
+				<sender>701</sender>
+				<receiver>012</receiver>
+				<mail_type>70101</mail_type>
+			</bMail>
+			<bTrace>
+				<sender_id>F12A128965D7</sender_id>
+				<sender_ts>21.08.2018 08:49:04</sender_ts>
+				<bankmail_id></bankmail_id>
+				<bankmail_ts></bankmail_ts>
+				<receiver_id></receiver_id>
+				<receiver_ts></receiver_ts>
+			</bTrace>
+			<bBody>
+				<doc_n>965854554</doc_n>
+				<content>
+					eyJiaWQiOiIxNjEwMjAwMDg2MTkiLCJkb2NfbnVtIjoiOTkwMDAyNDU1IiwiZG9jZGF0ZS
+					I6IjI1MDMyMDE2IiwiYnJhbmNoX2EiOiIwMDk5NyIsImFjY291bnRfYSI6IjIwMjA1MDAw
+					MDAwMTExNzY0ODg0IiwibmFtZV9hIjoizeDo7OXt7uLg7ejlIOrr6OXt8uAiLCJpbm5...
+				</content>
+			</bBody>
+			<bSign>
+				MIIMiwYJKoZIhvcNAQcCoIIMfDCCDHgCAQExCzAJBgUrDgMCGgUAMIIEOQYJKoZIhvcNAQcBo
+				IIEKgSCBCZ7ACIAYgBpAGQAIgA6ACIAMQA2ADEAMAAyADAAMAAwADgANgAxADkAIgAsACIAZA
+				BvAGMAXwBuAHUAbQAiADoAIgA5ADkAMAAwADAAMgA0ADUANQAiACwAIgBkAG8AYwBkAGEA...
+			</bSign>
+		</sendMail>
