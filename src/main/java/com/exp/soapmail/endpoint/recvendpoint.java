@@ -33,7 +33,7 @@ public class recvendpoint {
 
     @PayloadRoot(namespace = "http://BankMail.ws.uz/", localPart = "recvMail")
     @ResponsePayload
-    public RecvMailResponse processRecvMail(@RequestPayload RecvMailResponse recvMail){
+    public RecvMailResponse processRecvMail(@RequestPayload RecvMail recvMail){
         RecvMailResponse response = new RecvMailResponse();
 /*
         RecvMailResponse.RecvMailResult result = response.getRecvMailResult();
