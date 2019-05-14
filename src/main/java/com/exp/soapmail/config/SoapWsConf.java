@@ -30,7 +30,7 @@ public class SoapWsConf extends WsConfigurerAdapter {
         return new SimpleXsdSchema(new ClassPathResource("bankschema.xsd"));
     }
 
-    @Bean(name = "userws")
+    @Bean(name = "bankws")
     public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema bankSchema){
         DefaultWsdl11Definition definition = new DefaultWsdl11Definition();
         definition.setSchema(bankSchema);
